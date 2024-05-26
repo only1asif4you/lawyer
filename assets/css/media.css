@@ -1,0 +1,69 @@
+/* EXTRA 2X LARGE DEVICES - xxl (large desktops, 1400px and up) */
+@media (min-width: 1400px) {}
+
+
+/* EXTRA LARGE DEVICES - xl (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+
+/* LARGE DEVICES - lg (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+
+/* MEDIUM DEVICES - md (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .banner .text h2 {
+        font-size: 50px;
+    }
+
+    .attorney {
+        padding: 60px 0;
+    }
+
+}
+
+
+/* SMALL DEVICES - sm (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .attorney {
+        padding: 50px 0;
+    }
+
+    .about_image {
+        margin-top: 30px;
+        font-size: 35px;
+    }
+
+    .banner .text h2 {
+        font-size: 45px;
+    }
+
+    .section_heading {
+        margin: 15px 0;
+        font-size: 30px;
+    }
+
+    .attorney_item {
+        margin: 15px 0;
+    }
+}
+
+
+/* EXTRA SMALL DEVICES (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .banner .text h2 {
+        font-size: 40px;
+    }
+
+    .about_image {
+        margin-top: 30px;
+    }
+
+    .attorney_item {
+        margin: 15px 0;
+    }
+
+    .copyright_text p {
+        font-size: 14px;
+    }
+}
